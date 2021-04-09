@@ -1,0 +1,53 @@
+body {
+  color: blue;
+  background-color: grey;
+}
+
+h2 {
+  color: darkblue;
+  margin: auto;
+  
+}
+
+
+.pearent {
+  width: 200px;
+  border-color: green;
+  background-color: purple;
+}
+
+#result {
+  /*pearentに合わせたいがなぜかはみ出る*/
+  width: 100%;
+}
+
+input {
+  /*24%以上にすると下段にいってしまう*/
+  width: 23%;
+  height: auto;
+  color: blue;
+  background-color: orange;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#gyou5 {
+  width: 95%;
+  height: 10px;
+  background-color: pink;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+#clr {
+  background-color: green;
+  color: yellow;
+  width: 100%;
+}
+
+
+
+button {
+  width:40px;
+  height:40px;  
+}

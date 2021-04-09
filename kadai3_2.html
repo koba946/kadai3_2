@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="kadai3_2.css">
+
+  <title>sample</title>
+</head>
+<body>
+  <h2>でんたくん</h2>
+  
+  <div class="pearent">
+    
+    <input type="text" id="result">
+    
+    <div id="gyou1">
+      <!--関数edit()を呼び出す。引数にはthisを使ってbuttonのvalueを取得して代入。-->
+      <input type="button" value="7" onclick="edit(this)">
+      <input type="button" value="8" onclick="edit(this)">
+      <input type="button" value="9" onclick="edit(this)">
+      <input type="button" value="+" onclick="edit(this)">
+    </div>
+    
+    <div id="gyou2">
+      <input type="button" value="4" onclick="edit(this)">
+      <input type="button" value="5" onclick="edit(this)">
+      <input type="button" value="6" onclick="edit(this)">
+      <input type="button" value="-" onclick="edit(this)">
+    </div>
+    
+    <div id="gyou3">
+      <input type="button" value="1" onclick="edit(this)">
+      <input type="button" value="2" onclick="edit(this)">
+      <input type="button" value="3" onclick="edit(this)">
+      <input type="button" value="/" onclick="edit(this)">
+    </div>
+    
+    <div id="gyou4">
+      <input type="button" value="0" onclick="edit(this)">
+      <input type="button" value="." onclick="edit(this)">
+      <input type="button" value="*" onclick="edit(this)">
+      <input type="button" value="=" onclick="calc()">
+    </div>
+    
+    <div id="gyou5">
+      <input type="button" id="clr" value="CLR" onclick="clr()">
+    </div>
+    
+
+  
+  </div>
+ 
+  <script src="kadai3_2.js"></script>
+ 
+</body>
+</html>
